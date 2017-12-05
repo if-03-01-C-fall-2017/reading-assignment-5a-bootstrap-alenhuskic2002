@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTL Leonding Bootstrap Cheatsheet</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <style>
+	<h1 class="page-header">Hello World</h1>
+  </style>
+  <body>
+    <!--</body><div class="container">-->
+    <h1>Hello World</h1>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	
+		<h1>Highlight some text</h1>
+		<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua.
+		</p></br>
+	
+		<p><mark>Lorem ipsum dolor sit amet</mark>, consectetur adipisicing elit, sed do eiusmod
+			tempor <del>incididunt ut labore</del> et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation <u>ullamco laboris nisi</u> ut aliquip ex ea commodo consequat.
+			Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+			nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></br>
+		
+		<h1>Text Alignment</h1>
+		<p class="text-left">Left aligned text.</p>
+		<p class="text-center">Center aligned text.</p>
+		<p class="text-right">Right aligned text.</p>
+		<p class="text-justify">Justified text.</p></br>
+		
+		<h1>Text Transformation</h1>
+		<p class="text-left text-lowercase">Left aligend lowercase text.</p>
+		<p class="text-center text-uppercase">Centerd upperacse text.</p>
+		<p class="text-right text-capitalize">Right aligned capitalized text.</p></br>
+		
+		<h1>Floating</h1>
+		<div class="pull-right">Div floated to right</div>
+		<div class="pull-left">Div floated to left</div>
+		<div class="clearfix"></div>
+		<p>text after the div text </p>
+
+		<h1>Blockquotes</h1>
+		<blockquote class="blockquote-reverse">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+		<footer>Quote by <cite title="John Doe">John Doe</cite></footer>
+		</blockquote></br>
+		
+		<h1>Lists</h1>
+		<ul class="list-unstyled">
+		<li>Item One</li>
+		<li>Item Two</li>
+		<li>Item Three</li>
+		<li>Item Four</li>
+		</ul></br>
+		
+		<ul class="list-inline">
+		<li>Item One</li>
+		<li>Item Two</li>
+		<li>Item Three</li>
+		<li>Item Four</li>
+		</ul></br>
+		
+		<h1>Contextual Colors</h1>
+		<p class="text-primary">Hello World</p>
+		<p class="text-success">Hello World</p>
+		<p class="text-info">Hello World</p>
+		<p class="text-warning">Hello World</p>
+		<p class="text-danger">Hello World</p>
+		<p class="text-muted">Hello World</p></br>
+		
+		
+		<p class="bg-primary">Hello World</p>
+		<p class="bg-success">Hello World</p>
+		<p class="bg-info">Hello World</p>
+		<p class="bg-warning">Hello World</p>
+		<p class="bg-danger">Hello World</p>
+		<p class="bg-muted">Hello World</p>
+		
+		
+		<h1>Buttons</h1></br>
+
+		<h1>Basic Buttons</h1>
+		<button class="btn btn-default">Button</button>
+		<a href="#" class="btn btn-default" role="button">Link</a>
+		<input type="submit" class="btn btn-default" value="Submit"></br>
+		
+		<h1>Contextual Buttons</h1>
+		<button class="btn btn-default">Default</button>
+		<button class="btn btn-primary">Primary</button>
+		<button class="btn btn-success">Success</button>
+		<button class="btn btn-info">Info</button>
+		<button class="btn btn-warning">Warnig</button>
+		<button class="btn btn-danger">Delete</button>
+		<button class="btn btn-link">Link</button></br>
+		
+		<h1>Button Sizes</h1>
+		<button class="btn btn-default btn-lg">large</button>
+		<button class="btn btn-default">default</button>
+		<button class="btn btn-primary btn-sm">small</button>
+		<button class="btn btn-default btn-xs" disabled>extra small and disabled</button></br>
+		
+		<h1>Tables</h1>
+	<table>
+		<tr>
+			<th>Firstname</th>
+			<th>Lastname</th>
+			<th>Age</th>
+			</tr>
+			<tr>
+			<td>Jill</td>
+			<td>Smith</td>
+			<td>50</td>
+			</tr>
+			<tr>
+			<td>Eve</td>
+			<td>Jackson</td>
+			<td>24</td>
+			</tr>
+			<tr>
+			<td>John</td>
+			<td>Doe</td>
+			<td>34</td>
+			</tr>
+			<tr>
+			  <td>Stephanie</td>
+			  <td>Landon</td>
+			  <td>47</td>
+			</tr>
+			<tr>
+			  <td>Mike</td>
+			  <td>Johnson</td>
+			  <td>19</td>
+		</tr>
+	</table>
+		<h1>List Groups</h1>
+		<ul class="list-group">
+		  <li class="list-group-item">Cras justo odio</li>
+		  <li class="list-group-item">Dapibus ac facilisis in</li>
+		  <li class="list-group-item">Morbi leo risus</li>
+		  <li class="list-group-item">Porta ac consectetur ac</li>
+		  <li class="list-group-item">Vestibulum at eros</li>
+		</ul></br>
+		
+		<h1>Active Items</h1>
+			<li class="list-group-item active">Dapibus ac facilisis in</li>
+			
+		<h1>Disabled items</h1>
+			<li class="list-group-item disabled">Cras justo odio</li></br>
+			
+		<h1>Links and Buttons</h1>
+			<div class="list-group">
+			  <a href="#" class="list-group-item active">
+				Cras justo odio
+			  </a>
+			  <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+			  <a href="#" class="list-group-item list-group-item-action disabled">Vestibulum at eros</a>
+			</div></br>
+			
+			<div class="list-group">
+			  <button type="button" class="list-group-item list-group-item-action active">
+				Cras justo odio
+			  </button>
+			  <button type="button" class="list-group-item list-group-item-action">Dapibus ac facilisis in</button>
+			  <button type="button" class="list-group-item list-group-item-action disabled">Morbi leo risus</button>
+			  <button type="button" class="list-group-item list-group-item-action">Porta ac consectetur ac</button>
+			  <button type="button" class="list-group-item list-group-item-action" disabled>Vestibulum at eros</button>
+			</div></br>
+			
+			<div class="list-group">
+			  <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+			  <a href="#" class="list-group-item list-group-item-action list-group-item-primary">This is a primary list group item</a>
+			  <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">This is a secondary list group item</a>
+			  <a href="#" class="list-group-item list-group-item-action list-group-item-success">This is a success list group item</a>
+			  <a href="#" class="list-group-item list-group-item-action list-group-item-danger">This is a danger list group item</a>
+			  <a href="#" class="list-group-item list-group-item-action list-group-item-warning">This is a warning list group item</a>
+			  <a href="#" class="list-group-item list-group-item-action list-group-item-info">This is a info list group item</a>
+			  <a href="#" class="list-group-item list-group-item-action list-group-item-light">This is a light list group item</a>
+			  <a href="#" class="list-group-item list-group-item-action list-group-item-dark">This is a dark list group item</a>
+			</div></br>
+			
+			<h1>Cards</h1>
+			<div class="card" style="width: 20rem;">
+			  <img class="card-img-top" src="..." alt="Card image cap">
+			  <div class="card-body">
+				<h4 class="card-title">Card title</h4>
+				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				<a href="#" class="btn btn-primary">Go somewhere</a>
+			</div></br>
+			
+			<h1>Grids Page Layout</h1>
+			<div class="container">
+			  <div class="row">
+				<div class="col-*-*"></div>
+			  </div>
+			  <div class="row">
+				<div class="col-*-*"></div>
+				<div class="col-*-*"></div>
+				<div class="col-*-*"></div>
+			  </div>
+			  <div class="row">
+				...
+			  </div></br>
+			</div>
+		</div>
+			  
+			  <h1>Grid Classes</h1>
+			  <div class="container">
+		  <div class="row">
+			<div class="col-md-8 col-sm-8 col-xs-8">
+			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-4">
+			   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et </p>
+			  </div>
+		  </div>
+		</div>
+			<script src="js/bootstrap.min.js"></script>
+			<div class="container">
+			<h2>Containers</h2>
+			</div></br>
+			
+			<h1>Images & Figures</h1></br>
+			
+			<h1>Responsive Images</h1>
+			<img src="picture of your choice" class="img-responisve" alt="Responsive image"></br>
+			
+			<h1>Rounded Corners</h1>
+			<img src="picture of your choice" class="img-rounded" alt="pic with rounded corners"></br>
+			
+			<h1>Circle</h1>
+			<img src="picture of your choice" class="img-circle" alt="pic with rounded corners" width="304" height="236"></br>
+			
+  </body>
+</html>
